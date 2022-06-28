@@ -1,0 +1,43 @@
+
+<div class="flex items-center justify-center min-h-full px-4 py-12 sm:px-6 lg:px-8">
+  <div class="w-full max-w-md px-10 py-8 mt-auto space-y-8 bg-gray-500 rounded-md shadow-md shadow-slate-500">
+    <div>
+      <h2 class="mt-6 text-3xl font-extrabold text-center text-gray-50">Location Form</h2>
+    </div>
+    <form class="mt-8 space-y-6" action="#" method="POST">
+
+      <div class="">
+        <div class="mb-1">
+          <label for="zip-code" class="block font-medium text-gray-50 text-md">Zip Code</label>
+          <input type="text" name="zip-code" id="zip-code" class="block w-full h-8 px-2 mt-2 border-gray-700 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+        </div>
+        <div class="mb-1">
+          <label for="address" class="block font-medium text-gray-50 text-md">Address</label>
+          <input type="text" name="address" id="address" autocomplete="family-name" class="block w-full h-8 px-2 mt-2 border-gray-700 rounded-md shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm">
+        </div>
+        <div class="mb-1">
+          <fieldset>
+            <legend class="text-base font-medium text-gray-50 contents">Location Type</legend>
+            <div class="mt-4 space-y-4">
+              <div class="flex items-center">
+                <input id="rural" name="push-notifications" type="radio" class="w-4 h-4 text-indigo-600 border-gray-300 focus:ring-indigo-500">
+                <label for="rural" class="block ml-3 text-sm font-medium text-gray-200"> Rural </label>
+              </div>
+              <div class="flex items-center">
+                <input id="urban" name="push-notifications" type="radio" class="w-4 h-4 text-indigo-600 border-gray-300 focus:ring-indigo-500">
+                <label for="urban" class="block ml-3 text-sm font-medium text-gray-200"> Urban </label>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+      </div>
+
+      <div>
+        <button type="submit" class="relative flex justify-center w-full px-4 py-2 text-sm font-medium text-white bg-indigo-600 border border-transparent rounded-md group hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
